@@ -128,116 +128,176 @@ nav img:hover {
 /* Header bar */
 header {
     width: 100vw;
-    height: 76vh;
+    height: 38vh;
     padding-top: 10vh;
-    background-image: url("/thedoitparty/assets/images/background/flag.png"); /* Change to /thedoitparty */
+    background-image: url("/thedoitparty/assets/images/background/flag2.jpeg"); /* Change to /thedoitparty */
     background-size:cover;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    background-position-y: -15vh;
     z-index: 2;
 }
 
-header h1 {
-    color: white;
-    font-family: "Charm", serif;
-    font-size: 5.5em;
-    padding: 0 20vw;
-    font-weight: 200;
-}
-
-header h2 {
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 100;
-    font-size: 3.5em;
-    padding: 0 20vw;
-}
-
-/* Information Section */
-#information {
+/* About Section */
+#aboutInfo {
     width: 100vw;
-    height: 160vh;
-    background-image: url("/thedoitparty/assets/images/material/green-gobbler.png"); /* Change to /thedoitparty */
-    background-size: 100px;
-    background-attachment: fixed;
+    height: 65vh;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
     flex-direction: column;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url("/thedoitparty/assets/images/material/foggybirds.png"); /* Change to /thedoitparty */
 }
 
-#information h3 {
+.sectionHeader {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 3em;
     color: rgb(33, 33, 50);
-    padding: 5vh 0;
-    width: 70%;
+    padding: 0 15vw;
 }
 
-#boxHolder {
-    width: 70%;
-    height: 42vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sectionPar {
+    padding: 2vh 15vw;
+    color: rgb(33, 33, 50);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 1.1em;
 }
 
-#boxRail {
+#imageHolder {
     width: 100%;
-    height: 100%;
+    height: 30vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 1.5vw;
 }
 
-.box {
-    width: 20vw;
-    height: 95%;
-    background-color: white;
-    overflow: hidden;
+#imageHolder img {
+    height: 200px;
+    width: 220px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.262);
+}
+
+/* Inspired Images */
+#inspiredImages {
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(33, 33, 50);
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.539);
 }
 
-.box img {
-    width: 100%;
-    height: 60%;
+#voteBanner {
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(212, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box h2 {
-    color: rgb(29, 29, 53);
-    padding: 2vh 0;
-    font-size: 1.5em;
-}
-
-.box button {
-    background-color: rgb(196, 13, 13);
+#voteBanner button {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    background-color: transparent;
     border: none;
-    width: 52%;
-    padding: 2vh;
-    color: white;
-    font-size: 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.439);
+    color: white;   
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.594);
+    font-size: 1.5em;
+    letter-spacing: 5px;
     cursor: pointer;
 }
 
-.box button:hover {
-    background-color: white;
-    border: 1px solid rgb(196, 13, 13);
-    color: black;
+#inspiredImages h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 3vh 0;
+    font-size: 2em;
 }
 
-#videoHolder {
-    width: 70%;
-    height: 70vh;
-    background-color: rgb(123, 123, 123);
+#inspImgs {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inspImgs img {
+    height: auto;
+    width: 40%;
+}
+
+/* Platform Section */
+#platformInfo {
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+#platformInfo h1 {
+    padding: 3vh 15vw;
+}
+
+#platformInfo p {
+    padding: 1vh 15vw;
+    height: 35vh;
+}
+
+/* Spotlight Section */
+#spotlight {
+    width: 100vw;
+    height: 65vh;
+    background-color: white;
+    display: flex;
+}
+
+#spotlight img {
+    width: 50%;
+    height: 100%;
+    filter: contrast(10%);
+}
+
+#spotlight div {
+    width: 50%;
+    height: 100%;
+    background-image: url("/thedoitparty/assets/images/material/foggybirds.png"); /* Change to /thedoitparty */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#spotlight h1 {
+    color:rgb(28, 32, 55);
+    font-size: 3em;
+    padding: 2vh 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+#spotlight p {
+    color:rgb(28, 32, 55);
+    font-size: 1.2em;
+    width: 90%;
+    padding: 3vh 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Footer */

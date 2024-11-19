@@ -3,37 +3,37 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <script src="/scripts/script.js"></script>
-            <link rel="stylesheet" href="/styles/style.css" type="text/css">
-            <link rel="icon" type="image/png" href="/assets/images/icon/fingerPoint.png">
+            <script src="/thedoitparty/scripts/script.js"></script> <!-- Change to /thedoitparty-->
+            <link rel="stylesheet" href="/thedoitparty/styles/style.css" type="text/css"> <!-- Change to /thedoitparty-->
+            <link rel="icon" type="image/png" href="/thedoitparty/assets/images/icon/fingerPoint.png"> <!-- Change to /thedoitparty-->
             <title>| The Do It Party</title>
             <!-- Open Graph meta tags -->
             <meta property="og:title" content="The Do It Party">
             <meta property="og:description" content="The best party to vote for!">
             <meta property="og:type" content="website">
             <meta property="og:url" content="https://michaelyurachek.github.io/thedoitparty">
-            <meta property="og:image" content="/assets/images/icons/moneky-color_big.png">
+            <meta property="og:image" content="/thedoitparty/assets/images/icon/websiteIcon.png"> <!-- Change to /thedoitparty-->
             <meta property="og:site_name" content="The Do It Party">
             <!-- Twitter Card meta tags -->
             <meta name="twitter:card" content="summary_large_image">
             <meta name="twitter:title" content="The Do It Party">
             <meta name="twitter:description" content="The best party to vote for!">
-            <meta name="twitter:image" content="/assets/images/icons/moneky-color_big.png">
+            <meta name="twitter:image" content="/thedoitparty/assets/images/icon/websiteIcon.png"> <!-- Change to /thedoitparty-->
             <meta name="twitter:site" content="@skyzerbefr">
         </head>
         <body>
             <nav>
-                <img src="/assets/images/icon/fi-xwluxx-three-bars-wide.png" onclick="dropTog()">
+                <img src="/thedoitparty/assets/images/icon/fi-xwluxx-three-bars-wide.png" onclick="dropTog()"> <!-- Change to /thedoitparty-->
                 <div id="dropdownMenu">
-                    <button>About our party</button>
-                    <button>News</button>
-                    <button>Vote!</button>
+                    <button onclick="redirect(1)">About our party</button>
+                    <button onclick="redirect(2)">News</button>
+                    <button onclick="redirect(3)">Vote!</button>
                 </div>
                 <div id="navTitle">
-                    <h1><span style="color: rgb(0, 0, 0); font-family: 'Roboto', serif">The</span> Do It Party</h1>
+                    <h1 onclick="redirect(4)"><span style="color: rgb(0, 0, 0); font-family: 'Roboto', serif">The</span> Do It Party</h1>
                 </div>
                 <div id="navButtonHolder">
-                    <button class="navButton">About Us</button>
+                    <button class="navButton" onclick="redirect(1)">About Us</button>
                     <button class="navButton">Vote!</button>
                 </div>
             </nav>
@@ -47,17 +47,17 @@
                 <div id="boxHolder">
                     <div id="boxRail">
                         <div class="box">
-                            <img src="/assets/images/background/colorwheel.webp">
+                            <img src="/thedoitparty/assets/images/background/colorwheel.webp"> <!-- Change to /thedoitparty-->
                             <h2>Press Release 1</h2>
                             <button>Learn More</button>
                         </div>
                         <div class="box">
-                            <img src="/assets/images/background/colorwheel.webp">
+                            <img src="/thedoitparty/assets/images/background/colorwheel.webp"> <!-- Change to /thedoitparty-->
                             <h2>Vote Now!</h2>
                             <button>Learn More</button>
                         </div>
                         <div class="box">
-                            <img src="/assets/images/background/colorwheel.webp">
+                            <img src="/thedoitparty/assets/images/background/colorwheel.webp"> <!-- Change to /thedoitparty-->
                             <h2>Press Release 2</h2>
                             <button>Learn More</button>
                         </div>
@@ -75,7 +75,7 @@
                     <h3>Co-Chair William Nelson</h3>
                     <h3>Journalist Elias Grayson</h3>
                 </div>
-                <h1>michaelyurachek.github.io/thedoitparty</h1>
+                <h1 onclick="redirect(4)">michaelyurachek.github.io/thedoitparty</h1>
                 <p>&copy; 2024 SkyzerNetworks. All rights reserved.</p>
             </footer>
         </body>
