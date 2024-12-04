@@ -125,169 +125,61 @@ nav img:hover {
     height: 8vh;
 }
 
-/* Header bar */
+/* Header Block */
 header {
     width: 100vw;
-    height: 76vh;
-    padding-top: 10vh;
-    background-image: url("/thedoitparty/assets/images/background/flag.png"); /* Change to /thedoitparty */
-    background-size:cover;
+    height: 50vh;
+    background-image: url("/thedoitparty/assets/images/background/russiaWAR.webp");
+    object-fit: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
-    z-index: 2;
 }
 
 header h1 {
     color: white;
-    font-family: "Charm", serif;
-    font-size: 5.5em;
-    padding: 0 20vw;
-    font-weight: 200;
+    font-size: 3em;
+    letter-spacing: 5px;
+    padding: 5vh 20vw;
+    text-shadow: .1em .1em 0 black;
+    background-color: rgba(0, 0, 0, 0.500);
 }
 
 header h2 {
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 100;
-    font-size: 3.5em;
-    padding: 0 20vw;
+    color: rgb(230, 230, 230);
+    font-size: 2em;
+    letter-spacing: 3px;
+    padding: 2vh 10vw;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: .1em .1em 0 black;
 }
 
-/* Information Section */
-#information {
-    width: 100vw;
-    height: 70vh;
-    background-image: url("/thedoitparty/assets/images/material/green-gobbler.png"); /* Change to /thedoitparty */
-    background-size: 100px;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-}
-
-#information h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 3em;
-    color: rgb(33, 33, 50);
-    padding: 5vh 0;
-    width: 70%;
-}
-
-#boxHolder {
-    width: 70%;
-    height: 42vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#boxRail {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5vw;
-}
-
-.box {
-    width: 20vw;
-    height: 95%;
-    background-color: white;
-    overflow: hidden;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.539);
-}
-
-.box img {
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
-    background-position: center;
-}
-
-.box h2 {
-    color: rgb(29, 29, 53);
-    padding: 2vh 0;
-    font-size: 1.5em;
-}
-
-.box button {
-    background-color: rgb(196, 13, 13);
-    border: none;
-    width: 52%;
-    padding: 2vh;
-    color: white;
-    font-size: 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.439);
-    cursor: pointer;
-}
-
-.box button:hover {
-    background-color: white;
-    border: 1px solid rgb(196, 13, 13);
-    color: black;
-}
-
-#videoHolder {
-    width: 70%;
-    height: 70vh;
-    background-color: rgb(123, 123, 123);
-}
-
-/* Footer */
-footer {
-    width: 100vw;
-    height: 50vh;
-    background-color: rgb(209, 19, 19);
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-direction: column;
-}
-
-footer h2 {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    padding: 3vh 10vw;
-    font-size: 2.5em;
-}
-
-footer div {
+/* Press Release Section */
+section {
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10vh;
 }
 
-footer h3 {
-    color: white;
-    padding: 0 5.7vw;
-    font-size: 1.8em;
-    font-family: "Charm", serif;
-    font-weight: 100;
-}
-
-footer h1 {
-    color: white;
+section h3 {
+    color:rgb(28, 32, 55);
+    font-size: 1.9em;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    width: 100vw;
-    text-align: center;
-    padding: 7vh 0;
-    cursor: pointer;
+    padding: 4vh 0;
 }
 
-footer p {
-    color: rgb(231, 231, 231);
-    width: 100vw;
-    text-align: center;
+section p {
+    color:rgb(28, 32, 55);
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    padding: 2vh 0;
 }

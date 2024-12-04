@@ -268,9 +268,12 @@ header {
 }
 
 #spotlight img {
-    width: 50%;
-    height: 100%;
-    filter: contrast(10%);
+    width: 50vw;
+    height: 65vh;
+    max-height: 80vh;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 0 -10vh;
 }
 
 #spotlight div {

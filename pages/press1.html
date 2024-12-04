@@ -3,25 +3,48 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <script src="/scripts/script.js"></script>
-            <link rel="stylesheet" href="/styles/about.css" type="text/css">
-            <link rel="icon" type="image/png" href="/assets/images/icon/fingerPoint.png">
-            <title>| About Us</title>
+            <script src="/thedoitparty/scripts/script.js"></script>
+            <link rel="stylesheet" href="/thedoitparty/pages/stylePages/press1.css" type="text/css">
+            <link rel="icon" type="image/png" href="/thedoitparty/assets/images/icon/fingerPoint.png">
+            <title>| GAS GAS!</title>
             <!-- Open Graph meta tags -->
             <meta property="og:title" content="The Do It Party">
             <meta property="og:description" content="The best party to vote for!">
             <meta property="og:type" content="website">
             <meta property="og:url" content="https://michaelyurachek.github.io/thedoitparty">
-            <meta property="og:image" content="/assets/images/icon/websiteIcon.png">
+            <meta property="og:image" content="/thedoitparty/assets/images/icon/websiteIcon.png">
             <meta property="og:site_name" content="The Do It Party">
             <!-- Twitter Card meta tags -->
             <meta name="twitter:card" content="summary_large_image">
             <meta name="twitter:title" content="The Do It Party">
             <meta name="twitter:description" content="The best party to vote for!">
-            <meta name="twitter:image" content="/assets/images/icon/websiteIcon.png">
+            <meta name="twitter:image" content="/thedoitparty/assets/images/icon/websiteIcon.png">
             <meta name="twitter:site" content="@skyzerbefr">
         </head>
         <body>
-
+            <nav>
+                <img src="/thedoitparty/assets/images/icon/fi-xwluxx-three-bars-wide.png" onclick="dropTog()"> <!-- Change to /thedoitparty-->
+                <div id="dropdownMenu">
+                    <button onclick="redirect(1)">About our party</button>
+                    <button onclick="redirect(2)">News</button>
+                    <button onclick="redirect(3)">Vote!</button>
+                </div>
+                <div id="navTitle">
+                    <h1 onclick="redirect(4)"><span style="color: rgb(0, 0, 0); font-family: 'Roboto', serif">The</span> Do It Party</h1>
+                </div>
+                <div id="navButtonHolder">
+                    <button class="navButton" onclick="redirect(1)">About Us</button>
+                    <button class="navButton" onclick="redirect(3)">Vote!</button>
+                </div>
+            </nav>
+            <div id="navDivider"></div> <!-- DIVIDER -->
+            <header>
+                <h1>GAS GAS!</h1>
+                <h2>Michael & Robert</h2>
+            </header>
+            <section>
+                <h3>Press Release:</h3>
+                <p>We aim to elaborate on the recent announcement of Biden's plan to release one million barrels of gasoline to reduce the overall gas prices.  Biden seeks to improve the use of clean energy by making it more accessible, secure, and affordable for future benefits in lower utility bills. Congress had accepted a partial spending deal for the barrels and approved it in March to avert a partial government shutdown.<br><br>In my opinion, the current gas prices are unacceptable and unsustainable. Families and individuals shouldn’t have to sacrifice their entire paychecks just to fill their tanks. Reliable and affordable pricing is essential for everyone to maintain their independence and quality of life. These soaring costs burden hardworking people, and it’s clear that immediate change is needed. It’s time to prioritize practical solutions that make energy accessible for all.<br><br>The Do It Party would address high gas prices by empowering individuals and local communities to take action and demand accountability from energy providers. We would advocate for policies that encourage competition among fuel companies to drive prices down and promote transparency in pricing. Additionally, we’d push for investments in alternative energy sources to reduce dependence on monopolized markets. We can create a system that prioritizes affordability and reliability by giving people more control over their energy choices.</p>
+            </section>
         </body>
     </html>

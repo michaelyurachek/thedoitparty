@@ -26,10 +26,16 @@ function redirect(pageNum) {
         window.location.href = "/thedoitparty/pages/news.html";
         console.log("Valid Redirect");
     } else if (pageNum == 3) {
-        window.location.href = "Form";
+        window.location.href = "https://forms.gle/vcQXJF3W2DtG943E8";
         console.log("Valid Redirect");
     } else if (pageNum == 4) {
         window.location.href = "/thedoitparty/index.html";
+        console.log("Valid Redirect")
+    } else if (pageNum == 5) {
+        window.location.href = "/thedoitparty/pages/press1.html";
+        console.log("Valid Redirect")
+    } else if (pageNum == 6) {
+        window.location.href = "/thedoitparty/pages/press2.html";
         console.log("Valid Redirect")
     }
 }
